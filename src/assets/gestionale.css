@@ -1,0 +1,146 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: hidden;
+  background-color: rgba(232, 120, 22, 0.733);
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  min-height: calc(100vh - 120px);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.imgTop {
+  width: 100%;
+  padding-top: 1em;
+}
+
+.cardStyle {
+  margin: 20px 8vw 0 8vw;
+}
+
+.iconColor {
+  color: rgba(232, 120, 22, 0.733);
+}
+
+.iconColor:hover {
+  color: rgb(28, 28, 28);
+}
+
+.button {
+  background-color: rgba(232, 120, 22, 0.733);
+  color: white !important;
+  border: none;
+}
+
+.button:hover {
+  background-color: rgb(28, 28, 28);
+}
+
+.column {
+  min-width: 240px;
+}
+
+
+a:hover {
+  color: rgb(218, 102, 0);
+}
+
+.logoTop {
+  width: 10vw;
+  margin-left: 10px;
+}
+
+nav {
+  background-color: white;
+  height: 5em;
+}
+
+.row, .space {
+  padding: 0 30px 0 30px;
+}
+
+.logoBottom {
+  width: 10%;
+  bottom: 0;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.719);
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  color: rgb(218, 102, 0);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(211, 118, 37, 0.324);
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: rgba(232, 120, 22, 0.733);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.card-header {
+  background-color: white;
+}
+
+h2, h3, h5 {
+  color: black;
+  font-weight: bold;
+}
+
+i {
+  color: rgb(28, 28, 28);
+}
+
+.footer {
+  background-color: white;
+  bottom: 0;
+  height: 125px;
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.router-link-exact-active i {
+  color: rgb(72 72 72);
+}
+
+.tot{
+  background-color: white;
+  text-align: center;
+  margin: 0 30px 0 30px;
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(211, 118, 37);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+}
