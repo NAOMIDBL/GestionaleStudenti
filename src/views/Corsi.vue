@@ -86,11 +86,8 @@
 </template>
 
 <script>
-
-
 export default {
-  components: {
-  },
+  components: {},
   data: function() {
     return {
       student: {}

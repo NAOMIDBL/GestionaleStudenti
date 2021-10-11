@@ -16,7 +16,7 @@ export default new Vuex.Store({
         email: "Fiero.2015@outlook.com",
         description:
           "Abita a Buttigliera d'Asti con i nonni, attento, ama suonare ma non fare gli eserci, solitamente 1 lezione a settimana da 1 ora",
-        corso: "Chitarra Jazz",
+        corso: "Chitarra Jazz"
       },
       {
         id: 2,
@@ -27,7 +27,7 @@ export default new Vuex.Store({
         email: "ragusa.viola@outlook.com",
         description:
           "Vive a Carmagnola ha due figli e le piace ascolatre le orchestre, solitamente 2 lezioni al mese da 1 ora.",
-        corso: "Chitarra Classica",
+        corso: "Chitarra Classica"
       },
       {
         id: 3,
@@ -38,7 +38,7 @@ export default new Vuex.Store({
         email: "alessio.05@hotmail.com",
         description:
           "Vive a Baldissero, ha un gruppo i -RadiFridi- e adora la pallavolo,solitamente 2 lezioni al mese da 2 ore. ",
-        corso: "Chitarra Blues",
+        corso: "Chitarra Blues"
       },
       {
         id: 4,
@@ -49,7 +49,7 @@ export default new Vuex.Store({
         email: "laraallea@yahoo.com",
         description:
           "Vive a Santena, ha un talento innato suona arpa, piano e chitarra, iperattiva, solitamente 1 lezione a settimana da 30 min ",
-        corso: "Chitarra Jazz",
+        corso: "Chitarra Jazz"
       }
     ],
     ore: 0
